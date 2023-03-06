@@ -1,0 +1,10 @@
+{
+  "name": "comparing-test-runners",
+  "private": true,
+  "scripts": {
+    "test": "turbo run test --filter=./tests/*"
+  },
+  "devDependencies": {
+    "turbo": "1.8.3"
+  }
+}
