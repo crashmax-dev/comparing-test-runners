@@ -1,4 +1,4 @@
-import assert from 'node:assert'
+import assert from 'node:assert/strict'
 import { fullCircle, range } from '@tests/app'
 
 export function test() {
