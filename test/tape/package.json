@@ -1,0 +1,16 @@
+{
+  "name": "@tests/tape",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@tests/app": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/tape": "4.13.2",
+    "tape": "5.6.3"
+  }
+}
