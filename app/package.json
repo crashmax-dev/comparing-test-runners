@@ -1,0 +1,10 @@
+{
+  "name": "@tests/app",
+  "type": "module",
+  "private": true,
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  }
+}

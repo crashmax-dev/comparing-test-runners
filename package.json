@@ -2,9 +2,15 @@
   "name": "comparing-test-runners",
   "private": true,
   "scripts": {
-    "test": "turbo run test --filter=./tests/*"
+    "build": "turbo run build --filter=@tests/app --filter=./test/*",
+    "test": "turbo run test --filter=./test/*",
+    "format": "prettier --write '**/*.{js,ts,tsx,json}'"
   },
   "devDependencies": {
-    "turbo": "1.8.3"
+    "@crashmax/prettier-config": "3.2.1",
+    "@crashmax/tsconfig": "2.0.1",
+    "@types/node": "18.15.0",
+    "turbo": "1.8.3",
+    "typescript": "4.9.5"
   }
 }
