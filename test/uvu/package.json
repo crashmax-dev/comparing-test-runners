@@ -1,0 +1,15 @@
+{
+  "name": "@tests/uvu",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@tests/app": "workspace:*"
+  },
+  "devDependencies": {
+    "uvu": "0.5.6"
+  }
+}
