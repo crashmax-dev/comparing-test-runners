@@ -1,0 +1,2 @@
+- https://jestjs.io/docs/cli#running-from-the-command-line
+- https://jestjs.io/docs/ecmascript-modules

@@ -6,8 +6,7 @@
 - `xv`
 - `uvu`
 - `ava`
-- `chai`
+- `chai + mocha`
 - `tape`
-- `mocha`
 - `jest`
 - `vitest`
