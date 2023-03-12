@@ -1,0 +1,20 @@
+{
+  "name": "@tests/ava",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "ava",
+    "build": "tsc"
+  },
+  "ava": {
+    "files": [
+      "dist/**"
+    ]
+  },
+  "dependencies": {
+    "@tests/app": "workspace:*"
+  },
+  "devDependencies": {
+    "ava": "5.2.0"
+  }
+}
