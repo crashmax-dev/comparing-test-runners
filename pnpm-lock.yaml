@@ -25,6 +25,15 @@ importers:
     dependencies:
       '@tests/app': link:../../app
 
+  test/xv:
+    specifiers:
+      '@tests/app': workspace:*
+      xv: 2.1.1
+    dependencies:
+      '@tests/app': link:../../app
+    devDependencies:
+      xv: 2.1.1
+
 packages:
 
   /@ampproject/remapping/2.2.0:
@@ -559,6 +568,12 @@ packages:
       browserslist: 4.21.5
       escalade: 3.1.1
       picocolors: 1.0.0
+    dev: true
+
+  /xv/2.1.1:
+    resolution: {integrity: sha512-OHT+1/gpxObzil0npzBS+OjlqzcHOAvUa6T2bgfHMv2iBMC33pqesqzEAx3buxMmAAT6XnehfLkL6a3Pi8bdCw==}
+    engines: {node: '>=14.16'}
+    hasBin: true
     dev: true
 
   /yallist/3.1.1:
